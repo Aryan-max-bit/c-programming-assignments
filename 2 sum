@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Program to read two integers and print their sum
 int main() {
     int a, b, sum;
     printf("Enter two numbers: ");
