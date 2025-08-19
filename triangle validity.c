@@ -2,25 +2,16 @@
 
 
 void main(){
-   int a,b,c;
-   printf("enter all three sides of triangle\n");
-   scanf("%d%d%d",&a,&b,&c);
-   if(a>b+c){
-    printf("true");
+   int age;
+   printf("enter ur age\n");
+   scanf("%d",&age);
+
+   if(age>=18){
+    printf("eligible");
    }
-   if(b>a+c){
-         printf("true");
-
+   else{
+    printf("not eligible");
    }
-
-if(c>a+b){
-         printf("true");
-
-}
-
-else{
-    printf("false");
-}
 
 
 
