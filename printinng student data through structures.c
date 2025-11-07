@@ -11,12 +11,15 @@ float total;
 };
 
 void printdetails(struct student_data s[],int n){
+
 for(int i=0;i<n;i++){
+      s[i].total=s[i].physmark+s[i].mathmark+s[i].chemmark;
         printf("%d\n",s[i].RollNo);
 printf("%s\n",s[i].name);
 printf("%f\n",s[i].physmark);
     printf("%f\n",s[i].chemmark);
      printf("%f\n",s[i].mathmark);
+     printf("%f\n",s[i].total);
 
 
 }
